@@ -7,12 +7,13 @@ Hit the target score to clear the level.
 
 ## What it is
 
-A single-file HTML build (`index.html`, **39 KB**) — no external scripts, no CDN, no build step, no
+A single-file HTML build (`index.html`, **306 KB**) — no external scripts, no CDN, no build step, no
 network calls of any kind.
 
-There are no image files either: the coins, the crown, the typography, the particles and the sound
-are all generated in code at runtime. That is why it is a fraction of the size of the other
-playables, and why it loads instantly even on a bad connection.
+There are no image files either: the coins, the crown, the typography and the particles are all
+drawn in code at runtime. The only embedded data is a handful of short mono coin recordings
+(syncopika, CC0, https://opengameart.org/content/coin-sounds), re-triggered and layered in code
+to build every sound cue in the game.
 
 Portrait, touch and mouse, works offline. Sending someone the file on its own works exactly as well
 as sending the link.

@@ -7,7 +7,7 @@ Hit the target score to clear the level.
 
 ## What it is
 
-A single-file HTML build (`index.html`, **306 KB**) — no external scripts, no CDN, no build step, no
+A single-file HTML build (`index.html`, **308 KB**) — no external scripts, no CDN, no build step, no
 network calls of any kind.
 
 There are no image files either: the coins, the crown, the typography and the particles are all
